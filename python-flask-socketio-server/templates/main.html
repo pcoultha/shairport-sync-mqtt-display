@@ -381,12 +381,13 @@
     </div>
     {% endif %}
 
+    <div id="infocontainer">
+    {% if showTitle  %} <div id="track">Song Title</div>  {% endif %}
     {% if showArtist %} <div id="artist">Artist</div>     {% endif %}
     {% if showAlbum  %} <div id="album">Album</div>       {% endif %}
-    {% if showTitle  %} <div id="track">Song Title</div>  {% endif %}
     {% if showGenre  %} <div id="genre">Genre</div>       {% endif %}
-
     {% if showUpdateInfo %} <div id="updateinfo">Song info updated <span id="updatedInfo"></span></div>  {% endif %}
+    </div>
   </div>
 
   {% if showPlayer %}

@@ -10,9 +10,7 @@ body {
     /* margin-left: 10pt; */
     font-family: sans-serif;
 
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
+    background: url("/static/img/AirPlay_Audio_logo.svg") no-repeat 95% 85%/20%, linear-gradient(225deg, #303030 0%, black 100%);
 }
 
 img.rounded-corners {
@@ -30,28 +28,31 @@ img.rounded-corners {
 
 #trackinfo {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
 }
 
 #coverart {
-    height: 256px;
-    margin-top: 33pt;
+    height: 512px;
+    margin: 50pt;
 }
 
 #artist {
-    font-weight: 200;
+    font-size: 300%;
+    color: #CCCCCC;
 }
 
 #album {
-    color: gray;
-    line-height: 0.9;
+    color: #CCCCCC;
+    font-size: 200%;
 }
 
 #track {
-    color: crimson;
+    font-size: 500%;
+    color: #DDDDDD;
     font-weight: 700;
+    padding-top: 60pt;
 }
 
 #genre {
